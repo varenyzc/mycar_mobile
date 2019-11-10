@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/white_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/logo_color"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#008836"
+            android:text="16级光电信息科学与工程2班"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#008836"
+            android:text="袁梓聪毕业设计"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#008836"
+            android:text="基于Android的嵌入式物联网监控小车"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/black_view"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo_black"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_black" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/star_car_0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_style_green"
+        android:layout_margin="20dp"
+        android:text="启动小车"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</RelativeLayout>
